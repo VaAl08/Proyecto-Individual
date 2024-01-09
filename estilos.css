@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+*{
+    box-sizing: border-box ;
+   }
+
+h1{
+    font-family: 'Lemon', serif;
+}
+   body {
+   margin: 0;
+   padding: 0;
+
+   }
+   img {
+      width: 300px;
+      height: 200px;
+   }
+   
+   .blog {
+   
+       padding: 100px 50px;
+       background-image: url(/media/blanca.png);
+       background-size: 1400px;
+   }
+   .blog h1{ 
+       text-align: center;
+       color: white;
+   margin-bottom: 50px;
+   margin-top: 0;
+   }
+ .flex {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+
+ .flex-child {
+    width: 320px;
+   padding: 0 10px;
+   margin-bottom: 20px;
+   border-radius: 3px;
+ }
+ .info {
+    padding: 15px;
+    background-color: #fff;
+ }
+
+div{
+   background-image: url(/media/);
+}
